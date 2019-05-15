@@ -59,11 +59,14 @@
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\Editor\EdgeDetect_BeforeStack_Editor.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\Editor\EdgeDetect_BeforeTransparent_Editor.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\Editor\EdgeDetectPostProcessing_Editor.cs" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Editor\Trackball.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Editor\CurveGrid.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -77,23 +80,23 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -685,14 +688,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{A596E240-6E01-3F84-3DA8-F295623F057D}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{9D6E9417-84E5-5E51-375D-9DC0D162F49A}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{DFEE7205-586B-B659-12AF-AF769FA56C72}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

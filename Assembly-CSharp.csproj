@@ -55,76 +55,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\__Scenes\g.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\EdgeDetect_AfterStack.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\EdgeDetect_BeforeStack.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\EdgeDetect_BeforeTransparent.cs" />
      <Compile Include="Assets\EdgeDetect-PostProcessingUnity\EdgeDetectPostProcessing.cs" />
-     <Compile Include="Assets\Scenes\g.cs" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\FinalPass.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Waveform.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Uber.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Texture3DLerp.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\CopyStd.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Bloom.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\xRLib.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\Switch.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\PSSL.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Vectorscope.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\DepthOfField.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Colors.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\Vulkan.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\LightMeter.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\D3D12.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\OpenGL.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\ACES.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\StdLib.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Fog.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\CopyStdFromTexArray.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\D3D9.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Lut2DBaker.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Overlays.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\Metal.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Vectorscope.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\TemporalAntialiasing.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\Copy.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\D3D11.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Waveform.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\XboxOne.hlsl" />
      <None Include="Assets\EdgeDetect-PostProcessingUnity\Resources\EdgeDetectNormalsPostProcess.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Sampling.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\API\PSP2.hlsl" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Histogram.compute" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Histogram.shader" />
-     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -138,23 +82,23 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>C:/Users/Jayden/Documents/GitHub/Stand Alone/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -693,16 +637,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{9D6E9417-84E5-5E51-375D-9DC0D162F49A}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{DFEE7205-586B-B659-12AF-AF769FA56C72}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
